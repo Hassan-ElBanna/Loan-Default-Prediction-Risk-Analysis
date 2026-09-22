@@ -1,4 +1,4 @@
 [core]
     remote = storage
 ['remote "storage"']
-    url = gdrive://1ZrmY7DP9DQAgHRcB1JF2hP_3F7LdE8yZ
+    url = https://dagshub.com/hmelbanna100/Loan_Default_Prediction_Risk_Analysis.dvc
