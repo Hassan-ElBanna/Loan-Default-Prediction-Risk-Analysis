@@ -1,7 +1,5 @@
-
 import os
 import subprocess
-from google.colab import userdata
 
 def run(command):
     print(f">>> {command}")
@@ -18,7 +16,14 @@ run('git config --global user.email "200016662@must.edu.eg"')
 run("dvc remote remove storage || true")
 run("dvc remote add -d storage https://dagshub.com/hmelbanna100/Loan_Default_Prediction_Risk_Analysis.dvc")
 
-dagshub_token = userdata.get('dagshub_token')
+# Get DagsHub token from environment variable
+dagshub_token = os.environ.get("DAGSHUB_TOKEN")
+
+if not dagshub_token:
+    raise ValueError(
+        "DAGSHUB_TOKEN is not set. "
+        "Set it before running this script."
+    )
 
 run("dvc remote modify storage --local auth basic")
 run("dvc remote modify storage --local user hmelbanna100")
