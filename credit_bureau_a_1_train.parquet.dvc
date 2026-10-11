@@ -1,0 +1,5 @@
+outs:
+- md5: 91fb5b3acd679cbffc1224f54dfc1dfa
+  size: 364089090
+  hash: md5
+  path: credit_bureau_a_1_train.parquet

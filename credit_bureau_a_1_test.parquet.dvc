@@ -1,0 +1,5 @@
+outs:
+- md5: e745ba274c6e67465b6305fe0cdd077b
+  size: 36905
+  hash: md5
+  path: credit_bureau_a_1_test.parquet
