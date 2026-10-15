@@ -1,0 +1,5 @@
+outs:
+- md5: c8fc294602694ff59414bd0819d5111e
+  size: 13991670
+  hash: md5
+  path: applprev_2_train_agg.parquet

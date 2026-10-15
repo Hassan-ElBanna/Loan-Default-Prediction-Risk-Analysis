@@ -1,0 +1,5 @@
+outs:
+- md5: cfc0b250597a82e82f4ff38c6b7e4f43
+  size: 10389462
+  hash: md5
+  path: person_2_train_agg.parquet

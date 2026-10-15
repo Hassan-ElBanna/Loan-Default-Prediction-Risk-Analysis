@@ -1,0 +1,5 @@
+outs:
+- md5: 7d22fd1c992cf36f0979d6d4f3e4f301
+  size: 1348660
+  hash: md5
+  path: deposit_train_agg.parquet

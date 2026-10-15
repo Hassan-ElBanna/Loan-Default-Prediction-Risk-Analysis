@@ -1,0 +1,10 @@
+/applprev_1_train_agg.parquet
+/credit_bureau_a_1_train_agg.parquet
+/credit_bureau_b_1_train_agg.parquet
+/debitcard_train_agg.parquet
+/deposit_train_agg.parquet
+/other_train_agg.parquet
+/person_1_train_agg.parquet
+/tax_registry_a_train_agg.parquet
+/tax_registry_b_train_agg.parquet
+/tax_registry_c_train_agg.parquet
