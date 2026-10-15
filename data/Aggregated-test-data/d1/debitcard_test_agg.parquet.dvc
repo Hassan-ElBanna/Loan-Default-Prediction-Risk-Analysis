@@ -1,0 +1,5 @@
+outs:
+- md5: 687f3ee4e6e52cc186df7ba79630c446
+  size: 6335
+  hash: md5
+  path: debitcard_test_agg.parquet

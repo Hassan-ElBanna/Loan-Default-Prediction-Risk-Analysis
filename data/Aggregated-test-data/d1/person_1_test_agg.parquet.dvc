@@ -1,0 +1,5 @@
+outs:
+- md5: ab2a97df5164975a9270041c23778471
+  size: 49034
+  hash: md5
+  path: person_1_test_agg.parquet

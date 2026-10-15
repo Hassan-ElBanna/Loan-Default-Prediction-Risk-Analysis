@@ -1,0 +1,5 @@
+outs:
+- md5: 168cdac0b79979ce946d24822e5badc5
+  size: 4858
+  hash: md5
+  path: deposit_test_agg.parquet

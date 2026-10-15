@@ -1,0 +1,5 @@
+outs:
+- md5: 8345d2574f3a5e5a154aa97adfe3af73
+  size: 1691
+  hash: md5
+  path: tax_registry_c_test_agg.parquet

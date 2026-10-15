@@ -1,0 +1,5 @@
+outs:
+- md5: 0e75d9b7147e795c9140f35128006d64
+  size: 13022
+  hash: md5
+  path: applprev_2_test_agg.parquet
