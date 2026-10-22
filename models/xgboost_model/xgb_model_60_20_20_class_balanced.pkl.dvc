@@ -1,0 +1,5 @@
+outs:
+- md5: 1f2b0be6620ce13744f18a709f858572
+  size: 4416208
+  hash: md5
+  path: xgb_model_60_20_20_class_balanced.pkl
