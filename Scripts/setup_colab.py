@@ -13,7 +13,10 @@ run('git config --global user.name "Hassan"')
 run('git config --global user.email "200016662@must.edu.eg"')
 
 # Configure DVC remote
-#run("dvc remote remove storage || true")
+try:
+    run("dvc remote remove storage || true")
+except:
+    pass
 run("dvc remote add -d storage https://dagshub.com/hmelbanna100/Loan-Default-Prediction-Risk-Analysis.dvc")
 
 # Get DagsHub token from environment variable
