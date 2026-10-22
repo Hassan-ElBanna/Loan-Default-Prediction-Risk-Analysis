@@ -14,7 +14,7 @@ run('git config --global user.email "200016662@must.edu.eg"')
 
 # Configure DVC remote
 run("dvc remote remove storage || true")
-run("dvc remote add -d storage https://dagshub.com/hmelbanna100/Loan_Default_Prediction_Risk_Analysis.dvc")
+run("dvc remote add -d storage https://dagshub.com/hmelbanna100/Loan-Default-Prediction-Risk-Analysis.dvc")
 
 # Get DagsHub token from environment variable
 dagshub_token = os.environ.get("DAGSHUB_TOKEN")
